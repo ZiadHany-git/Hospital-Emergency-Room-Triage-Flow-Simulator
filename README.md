@@ -12,7 +12,7 @@ EscalationThreshold BreakInterval BreakDuration
 M
 <M event lines in chronological order>
 exaple :
-2 4 3 2 4
+2 4 3 2 4  
 15 5 3
 6
 A 1 101 3 ACUTE 30 12  
