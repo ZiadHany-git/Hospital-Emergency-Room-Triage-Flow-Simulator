@@ -23,10 +23,10 @@ A 10 104 2 ACUTE 45 15
 L 25 103      
 output file format :        
 DT PID ESI AT WT ST Status      
-# Example lines:   
+Example lines:     
 22 102 1 2 0 20 Discharged       
 25 103 4 4 21 0 Left_LWBS       
-Required Aggregate Summary Statistics (appended at the end of the output file):      
+# Required Aggregate Summary Statistics (appended at the end of the output file):      
 Patient Counts: Total patients served, breakdown by ESI level (1–5), total Discharged, and total Left_LWBS.        
 Waiting & Service Times: Overall average WT, average WT per ESI level, and average Service Time (ST).      
 Resource Utilization: Average bay utilization (%) per zone and overall physician/nurse utilization (%).    
