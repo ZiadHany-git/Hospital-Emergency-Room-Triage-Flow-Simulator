@@ -1,0 +1,60 @@
+{
+   "N_RESUS":5,
+   "N_ACUTE": 6 ,
+   "N_FAST":4,
+   "N_NURSES":5,
+   "N_Physicians":10,
+   "EscalationThreshold":15,
+   "BreakInterval":10,
+   "BreakDuration" :9,
+   "M":6,
+  "events" :[
+    {
+        "type":"A",
+        "TS":1 ,
+        "PID" : 101 ,
+        "ESI":3 ,
+        "zone":"ACUTE",
+        "Maxwait" :30,
+        "TD" : 12 
+    },
+    {
+    "type":"A",
+        "TS":2 ,
+        "PID" : 102 ,
+        "ESI":1 ,
+        "zone":"RESUS",
+        "Maxwait" :999,
+        "TD" : 20 
+    },
+    {
+        "type":"A",
+        "TS":4 ,
+        "PID" : 103 ,
+        "ESI":4,
+        "zone":"FAST",
+        "Maxwait" :20,
+        "TD" : 8 
+    },
+    {
+        "type":"D",
+        "TS":7 ,
+        "PID" : 101 ,
+        "TD":5
+    },
+    {
+        "type":"A",
+        "TS":10 ,
+        "PID" : 104,
+        "ESI":2 ,
+        "zone":"ACUTE",
+        "Maxwait" :45,
+        "TD" : 15 
+    },
+    {
+        "type":"L",
+        "TS": 25,
+        "PID":103
+    }
+  ]
+} 
