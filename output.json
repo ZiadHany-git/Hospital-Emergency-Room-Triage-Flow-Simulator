@@ -1,0 +1,4 @@
+{"patient":[{"AT":1,"DT":13,"ESI":3,"PID":101,"TD":12,"WT":0,"priorety":280.0},
+{"AT":2,"DT":22,"ESI":1,"PID":102,"TD":20,"WT":0,"priorety":480.0},
+{"AT":4,"DT":11,"ESI":4,"PID":103,"TD":8,"WT":-1,"priorety":180.0},
+{"AT":10,"DT":19,"ESI":2,"PID":104,"TD":15,"WT":-6,"priorety":380.0}]}
