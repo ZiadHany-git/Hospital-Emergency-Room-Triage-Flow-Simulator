@@ -38,7 +38,7 @@
     },
     {
         "type":"D",
-        "TS":7 ,
+        "testduration":7 ,
         "PID" : 101 ,
         "TD":5
     },
