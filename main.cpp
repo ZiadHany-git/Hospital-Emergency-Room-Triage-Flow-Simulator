@@ -12,7 +12,7 @@ struct EventData {      //* we see this struct for the first time in the ERsimul
     int TS = 0;
     int PID = 0;
     int ESI = 0;
-    string zone = "";   //! why the zone here = ""
+    string zone = "";   
     int Maxwait = 0;
     int TD = 0;
     int testduration = 0;
@@ -27,15 +27,15 @@ public:
     string zone;
     int Maxwait;
     int TD;
-    int remainingTD = 0;   //!what is the point of this variable 
-    int remainingDiag = 0;  //!what is the point of this variable 
-    int remainingTriage = 0;   //* the remaining time for the patient in the triage
+    int remainingTD = 0;  
+    int remainingDiag = 0;  
+    int remainingTriage = 0;   
     int TT = -1; // Triage Time 
     int BT = -1; // Bed/Bay Time  
-    int DT = -1; // Departure Time   //! why here = -1
+    int DT = -1; // Departure Time   
     int WT = 0;  // Waiting Time
     int ST = 0;  // Service Time
-    bool escalated = false;         //!what is the point of this variable 
+    bool escalated = false;         
     string status = "Waiting_Triage";   //* by default 
 
     Patient(int id, int arrival, int acuity, const string& z, int mw, int treatDur)  //! here we pass the values in the constructor to the variables in the class
@@ -64,7 +64,7 @@ public:
     FIFOQueue(int cap = 100) {   //* here the 100 is default value if we didn't pass a value to the constructor and not the maximum value 
         capacity = (cap > 0) ? cap : 100;    //* ternary operator
         arr = new Patient*[capacity];
-        frontIdx = 0;   //! here why the front = 0 not -1 
+        frontIdx = 0;   
         rearIdx = -1;
         count = 0;
     }
